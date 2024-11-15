@@ -1,0 +1,253 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form, .message, .admin-panel {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="text"], input[type="email"], input[type="url"], textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.message, .admin-panel div {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+}
+
+.admin-panel form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-panel textarea {
+    height: 100px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.center-link {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.center-link a {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.center-link a:hover {
+    background-color: #2980b9;
+    text-decoration: none;
+}
+
+.messages-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.message {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 80%;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.message h3 {
+    margin: 0;
+    color: #333;
+}
+
+.message h3 span {
+    font-weight: normal;
+    color: #888;
+}
+
+.message p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.admin-form {
+    margin-top: 20px;
+}
+
+.admin-form textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.admin-form button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.admin-form button:hover {
+    background-color: #0056b3;
+}
+
+.success-message, .error-message {
+    text-align: center;
+    color: #fff;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+.success-message {
+    background-color: #0056b3;
+}
+
+.error-message {
+    background-color: #dc3545;
+}
+
+.message {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 80%;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.message h3 {
+    margin: 0;
+    color: #333;
+}
+
+.message h3 span {
+    font-weight: normal;
+    color: #888;
+}
+
+.message p {
+    color: #555;
+    line-height: 1.6;
+    word-wrap: break-word;
+}
+
+.admin-panel {
+    padding: 20px;
+    border-top: 2px solid #eee;
+}
+
+.admin-panel .admin-response {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 6px;
+    max-width: 100%;
+}
+
+.admin-panel .admin-response p {
+    color: #444;
+    word-wrap: break-word;
+}
+
+.admin-panel .admin-response span {
+    font-weight: bold;
+}
+
+.admin-panel .admin-response-header {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.admin-panel .message-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.admin-panel button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.admin-panel button:hover {
+    background-color: #2980b9;
+}
